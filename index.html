@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Para ti Yeii</title>
-    <style>
+<style>
 nav {
   background-color: #ffb6c1;
   padding: 1em 2em;
@@ -60,64 +60,36 @@ nav {
     }
 
 
-    /*estilo de la dedicatoria*/
+/*estilo del contenido article*/
 
-    .dedicatoria {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #fffafa;
-  padding: 2em;
-  border-radius: 20px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-  margin: 3em auto;
-  max-width: 800px;
-  gap: 1em;
-  flex-wrap: wrap;
-}
+.article {
+    padding: 2em;
+     background-color: #fffafa; border-radius: 1em; 
+     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      max-width: 600px; 
+      margin: 2em auto }
 
-.contenido-dedicatoria {
-  flex: 1 1 300px;
-  text-align: center;
-}
+      .footer {
+        background-color: #161212;
+         color: #382727; 
+          text-align: center; 
+          padding: 1em 0; 
+          margin-top: 50px; 
+          font-family: 'Segoe UI', sans-serif;
+          border-radius: 99px;
+           margin: 2em auto 0; 
+      }
 
-.contenido-dedicatoria h2 {
-  color: #d81b60;
-  margin-bottom: 0.5em;
-  font-size: 24px;
-}
 
-.contenido-dedicatoria p {
-  font-size: 16px;
-  color: #6b0f1a;
-  line-height: 1.6;
-}
 
-.firma {
-  margin-top: 1em;
-  font-weight: bold;
-  color: #c2185b;
-}
 
-.galeria-fotos {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-}
 
-.galeria-fotos img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-}
+</style>
 
-    </style>
 </head>
 <body>
-    
-    <nav>
+
+     <nav>
         <div class="nav-left">
           <a href="index.html">
       <img src="https://cdn-icons-png.flaticon.com/512/833/833472.png" alt="Logo" />
@@ -128,34 +100,30 @@ nav {
     <ul>
       <li><a href="index.html">Inicio</a></li>
       <li><a href="Carta.html">Carta</a></li>
-      <li><a href="#despedida">Final</a></li>
+      <li><a href="Final.html">Final</a></li>
     </ul>
   </nav>
-  <br><br><br>
 
-  <article class="dedicatoria">
-  <div class="galeria-fotos izquierda">
-    <!-- Aquí puedes colocar imágenes -->
-    <img src="foto1.jpeg" alt="US">
-    <img src="foto2.jpeg" alt="US">
-  </div>
+<article class="article">
+  <h2 style="color: #8b0000;">Antes de empezar esta carta…</h2>
+  <p>
+    A veces las palabras no alcanzan para expresar todo lo que uno siente. Pero hoy quise intentarlo, porque tú te mereces eso y mucho más. Esta carta no es solo un conjunto de frases bonitas: es un pedacito de mi corazón escrito con toda la sinceridad que siento cuando pienso en ti.
+  </p>
+  <p>
+    Aquí te comparto porqué siento que eres esa chica para mi, esa chica que quiero tanto y elijo cada día. Desde tus gestos más pequeños hasta las cosas más grandes que haces sin darte cuenta. Cada palabra que escribí están llenas de mucho amor, porque nacen de todo lo que me haces sentir.
+  </p>
+  <p>
+    Espero que la leas con una sonrisa, como esas que solo tú sabes dar, y que cada línea te abrace como lo haría yo si estuviera ahí contigo ahora mismo.
+  </p>
 
-  <div class="contenido-dedicatoria">
-    <h2>Una última razón…</h2>
-    <p>
-      Después de todo lo que he escrito, solo quiero recordarte que realmente no hay un porqué exacto, simplemente lo siento en mi alma.  
-      solo se que hay algo especial en tí que te hace tan importante para mí. Eres quien hace que mis facetas que mas me averguenzan, salgan con mucha confianza.  
-      Gracias por ser parte de mi vida y por ser tú, exactamente como eres.
-    </p>
-    <p class="firma">Con todo mi amor, Tu Roe 💗</p>
-  </div>
 
-  <div class="galeria-fotos derecha">
-    <!-- Aquí puedes colocar más imágenes -->
-    <img src="foto3.jpeg" alt="YOU">
-    <img src="foto4.jpeg" alt="ME">
-  </div>
+
 </article>
+
+<footer class="footer">
+  <p style="margin: 0;">by <strong>Roe</strong>💗</p>
+</footer>
+
 
 
 </body>
